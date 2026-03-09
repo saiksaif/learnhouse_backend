@@ -43,7 +43,7 @@ def get_database_url():
         'DATABASE_URL',
         os.environ.get(
             'LEARNHOUSE_DB_URL',
-            'postgres://b55db94fe15350d43ded30426295afebc839603897ddabc8e2847fec7c2238b1:sk_0fib8YFCqLHzhvkU5PVC4@db.prisma.io:5432/postgres?sslmode=require'
+            'postgresql://b55db94fe15350d43ded30426295afebc839603897ddabc8e2847fec7c2238b1:sk_0fib8YFCqLHzhvkU5PVC4@db.prisma.io:5432/postgres?sslmode=require'
         )
     )
 

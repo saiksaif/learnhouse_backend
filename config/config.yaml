@@ -41,7 +41,7 @@ mailing_config:
   smtp_use_tls: true
 
 database_config:
-  sql_connection_string: postgres://b55db94fe15350d43ded30426295afebc839603897ddabc8e2847fec7c2238b1:sk_0fib8YFCqLHzhvkU5PVC4@db.prisma.io:5432/postgres?sslmode=require
+  sql_connection_string: postgresql://b55db94fe15350d43ded30426295afebc839603897ddabc8e2847fec7c2238b1:sk_0fib8YFCqLHzhvkU5PVC4@db.prisma.io:5432/postgres?sslmode=require
 
 redis_config:
   redis_connection_string: redis://default:5FWpprKys2WDEVudyLx6bf9sWuTe0CtG@redis-18607.c100.us-east-1-4.ec2.cloud.redislabs.com:18607
